@@ -1,0 +1,4 @@
+#!/bin/bash
+pkill slate-daemon
+pkill -9 slate-daemon
+rm -f def_fifo

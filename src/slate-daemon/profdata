@@ -1,0 +1,17 @@
+==20089== NVPROF is profiling process 20089, command: ./slate-daemon
+==20089== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==20089== Profiling application: ./slate-daemon
+==20089== Profiling result:
+==20089== Metric result:
+"Device","Kernel","Invocations","Metric Name","Metric Description","Min","Max","Avg"
+"TITAN Xp (0)","scheduler",6001,"l2_read_throughput","L2 Throughput (Reads)",52.941522GB/s,70.600477GB/s,69.414635GB/s
+"TITAN Xp (0)","scheduler",6001,"l2_read_transactions","L2 Read Transactions",12170354,12176139,12170717
+"TITAN Xp (0)","scheduler",6001,"l2_write_throughput","L2 Throughput (Writes)",411.834594GB/s,549.203950GB/s,539.969449GB/s
+"TITAN Xp (0)","scheduler",6001,"l2_write_transactions","L2 Write Transactions",94674777,94674857,94674785
+"TITAN Xp (0)","scheduler",6001,"l2_utilization","L2 Cache Utilization","Low (3)","Low (3)","Low (3)"
+"TITAN Xp (0)","scheduler",6001,"gld_throughput","Global Load Throughput",52.754254GB/s,70.350665GB/s,69.167786GB/s
+"TITAN Xp (0)","scheduler",6001,"gst_throughput","Global Store Throughput",411.658990GB/s,548.969679GB/s,539.739162GB/s
+"TITAN Xp (0)","scheduler",6001,"gld_transactions","Global Load Transactions",24849959,24850015,24849999
+"TITAN Xp (0)","scheduler",6001,"gst_transactions","Global Store Transactions",94634408,94634464,94634408
+"TITAN Xp (0)","scheduler",6001,"inst_issued","Instructions Issued",90026272,90027854,90026791
+"TITAN Xp (0)","scheduler",6001,"ipc","Executed IPC",0.313824,0.316863,0.315126
